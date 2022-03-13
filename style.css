@@ -52,11 +52,13 @@ nav a:hover{
 .principal{
     padding: 3em 0;
     background: #FEFEFE;
-    width: 90%px;
+    width: 90%;
     margin: 0 auto;
 }
 .principal p{
     margin: 0 0 1em;
+    line-height: 1.5em;
+    
 }
 .principal strong{
     font-weight: bold;
@@ -67,8 +69,9 @@ nav a:hover{
 .foto{
     width: 120px;
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 0px 20px 20px 30px;
 }
+
 
 .sobre{
     padding: 3em 0;
@@ -87,12 +90,13 @@ nav a:hover{
     display: inline-block;
     vertical-align: top;
 }
-.itens a{
-    line-height: 1.5;
+.itens {
+    line-height: 1.5em;
     text-decoration: none;
+    margin: 10px 0; 
 
 }
-.itens:first-child{
+.itens a:first-child{
     font-weight: bold;
 }
 .itens:before{
@@ -101,7 +105,8 @@ nav a:hover{
 .contatos{
     width: 90%;
     margin: 0 auto;
-    padding: 50px 0;
+    margin-bottom: 30px;
+    padding: 0px 0px;
 }
 .contatos li{
     display: inline-block;
@@ -131,17 +136,16 @@ nav a:hover{
     font-size: 35px;
 }
 .contatos h2{
-    padding: 20px;
+    padding: 10px;
     font-size: 100%;
     font-weight: bold;
     text-align: center;
 }
 .contato-descricao{
     font-size: 18px;
+    padding-top: 0.5em;
 
 }
-
-
 
 @media screen and (max-width:480px) {
     .caixa, .principal, .sobre, .contato {
@@ -156,5 +160,10 @@ nav a:hover{
     }
     .lista-sobre {
         width: 100%;
+    }
+    .contatos li h2{
+        font-size: 1em;
+        text-align: center;
+
     }
 }
