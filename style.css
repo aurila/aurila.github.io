@@ -1,0 +1,159 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: #FEDDFE;   
+    padding: 20px 0; 
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 10px 0 15px;
+    padding-inline: 10px;
+
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: #811023;
+    text-decoration: underline;
+}
+
+
+
+
+/* css da página inicial */
+.banner{
+    width: 100%;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.foto{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.sobre{
+    padding: 3em 0;
+    background: #FEFEFE;
+}
+.sobre a {
+    text-decoration: none;
+}
+
+.conteudo-sobre{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-sobre{
+    width: 95%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens a{
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.itens:before{
+    content: "✨";
+}
+.contatos{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.contatos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;   
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.contatos li:hover{
+    border-color: #C800BF ;
+}
+.contatos li:active{
+    border-color:#088C19 ;
+}
+.contatos li a {
+    text-decoration: none;
+    color: #000000;
+}
+.contatos li:hover h2{
+    font-size: 35px;
+}
+.contatos h2{
+    padding: 20px;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+.contato-descricao{
+    font-size: 18px;
+
+}
+
+
+
+@media screen and (max-width:480px) {
+    .caixa, .principal, .sobre, .contato {
+        width: auto;
+
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .lista-sobre {
+        width: 100%;
+    }
+}
