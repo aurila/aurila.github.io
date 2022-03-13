@@ -8,7 +8,7 @@ header{
 }
 .caixa{
     position: relative;
-    width: 940px;
+    width: 90%;
     margin: 0 auto;
 }
 nav {
@@ -40,9 +40,7 @@ nav a:hover{
 
 
 /* css da página inicial */
-.banner{
-    width: 100%;
-}
+
 .titulo-principal{
     text-align: center;
     font-size: 2em;
@@ -54,7 +52,7 @@ nav a:hover{
 .principal{
     padding: 3em 0;
     background: #FEFEFE;
-    width: 940px;
+    width: 90%px;
     margin: 0 auto;
 }
 .principal p{
@@ -115,6 +113,9 @@ nav a:hover{
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+}
+.contatos li h2 {
+    font-size: 2em
 }
 .contatos li:hover{
     border-color: #C800BF ;
