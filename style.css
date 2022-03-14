@@ -115,8 +115,8 @@ nav a:hover{
     text-align: center;
     width: 30%;
     vertical-align: top;   
-    margin: 0 1.5%;
-    padding: 30px 20px;
+    margin: 0 1.5% 1.5% 1.5%; 
+    padding: 30px 10px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -125,28 +125,32 @@ nav a:hover{
     font-size: 150%;
 }
 .contatos li:hover{
-    border-color: #C800BF ;
+    border-color: #c41c70;
 }
 .contatos li:active{
-    border-color:#088C19 ;
+    border-color:#088C19;
 }
 .contatos li a {
     text-decoration: none;
     color: #000000;
 }
 .contatos li:hover h2{
-    font-size: 35px;
+    font-size: 27px;
 }
 .contatos h2{
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     font-size: 100%;
     font-weight: bold;
     text-align: center;
 }
 .contato-descricao{
-    font-size: 70%;
+    font-size: 100%;
     padding-top: 0.5em;
 
+}
+.logo {
+    width: 60px;
+    height: 60px;
 }
 
 @media screen and (max-width:480px) {
@@ -166,6 +170,5 @@ nav a:hover{
     .contatos li h2{
         font-size: 100%;
         padding: auto;
-
     }
 }
