@@ -76,14 +76,16 @@ nav a:hover{
 .sobre{
     padding: 3em 0;
     background: #FEFEFE;
+    text-align: center;
 }
 .sobre a {
     text-decoration: none;
 }
 
 .conteudo-sobre{
-    width: 640px;
     margin: 0 auto;
+    text-align: left;
+    display: inline-block;
 }
 .lista-sobre{
     width: 95%;
@@ -120,7 +122,7 @@ nav a:hover{
     border-radius: 10px;
 }
 .contatos li h2 {
-    font-size: 2em
+    font-size: 150%;
 }
 .contatos li:hover{
     border-color: #C800BF ;
@@ -142,7 +144,7 @@ nav a:hover{
     text-align: center;
 }
 .contato-descricao{
-    font-size: 18px;
+    font-size: 70%;
     padding-top: 0.5em;
 
 }
@@ -162,8 +164,8 @@ nav a:hover{
         width: 100%;
     }
     .contatos li h2{
-        font-size: 1em;
-        text-align: center;
+        font-size: 100%;
+        padding: auto;
 
     }
 }
